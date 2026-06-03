@@ -1,0 +1,724 @@
+/* Media Queries - Responsive */
+@media (max-width: 1024px) {
+    .box>.img>img {
+        height: 20vw;
+        margin-left: 25vw;
+    }
+
+    .box>h2,
+    .box p {
+        font-size: 2.5vw;
+    }
+
+    .heading>h1,
+    .skill>h1 {
+        font-size: 2.5vw;
+    }
+
+    .btn {
+        height: 6vw;
+        width: 12vw;
+        font-size: 1.5vw;
+    }
+
+    .box1 {
+        width: 30vw;
+        height: auto;
+    }
+
+    .alg>h1 {
+        color: black;
+        font-size: 3vw;
+        margin-left: 7vw;
+        margin-top: 4vw;
+    }
+}
+
+@media (max-width: 768px) {
+.container > .flex1 h2{
+    font-size: 5vw;
+    margin-top: -3vw;
+}
+
+.container > .flex1{
+    width: 87vw;
+    
+}
+
+    .box {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+
+    }
+
+    .box>.img>img {
+        height: 25vw;
+        margin-left: 0;
+        margin-top: 2vw;
+        width: auto;
+    }
+
+    .box>h2,
+    .box p {
+        margin-left: 0;
+    }
+
+    .heading>h1 {
+        margin-left: 15vw;
+    }
+
+    .heading>p {
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 3vw;
+    }
+
+    .button2 {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .btn {
+        width: 25vw;
+        height: 6vw;
+        margin-left: 1vw;
+    }
+
+    .button1{
+        margin-left: -62vw;
+    }
+
+    .button1 > .btn1{
+     font-size: 2vw;
+     margin-left: -4vw;
+    }
+
+     .button1 > .btn2{
+         font-size: 2vw;
+     margin-left: 2vw;
+    }
+
+     .button1 > .btn3{
+         font-size: 2vw;
+     margin-left: 2vw;
+    }
+
+     .button1 > .btn4{
+         font-size: 2vw;
+         margin-left: 2vw;
+ 
+    }
+
+    .project {
+        flex-direction: column;
+        align-items: center;
+        width: 20vw;
+    }
+
+    .box1 {
+        width: 0vw;
+        margin-left: 0;
+        margin-top: 3vw;
+    }
+
+    .project > .box1 > h3{
+        font-size: 2vw;
+     }
+
+    .contact {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        padding-bottom: 2vw;
+    }
+
+    .contact button {
+        width: 30vw;
+        margin-left: 1vw;
+        margin-top: 2vw;
+    }
+
+    .alg>h1 {
+        color: black;
+        font-size: 5vw;
+        margin-left: 7vw;
+        margin-top: 4vw;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4vw;
+    }
+
+    .project .box1 {
+        width: 80vw;
+        padding: 4vw;
+        text-align: center;
+        margin-left: 7vw;
+    }
+
+    .project .box1 h3 {
+        font-size: 5vw;
+    }
+
+    .project .box1 p {
+        font-size: 3.5vw;
+        line-height: 5vw;
+    }
+
+    .project h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .skill {
+        background-color: #f7f7f7;
+        height: 29vw;
+        margin-top: 6vw;
+    }
+
+    .skill>h1 {
+        margin-left: 15vw;
+    }
+
+    .skill>.button2 {
+        margin-left: 12vw;
+    }
+
+    .fflex>.whatsapp {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.instagaram {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.facebook {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.Email {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.Github {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .notcopy p {
+        font-size: 2vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .container .flex1>h2 {
+        font-size: 7vw;
+        margin-top: -1vw;
+        margin-left: -9vw;
+
+    }
+
+    .button1>button {
+        font-size: 3.5vw;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .button1>.btn1 {
+        font-size: 3.5vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15vw;
+
+    }
+
+    .button1>.btn2 {
+        font-size: 3.5vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3vw;
+
+    }
+
+    .button1>.btn3 {
+        font-size: 3.5vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3vw;
+
+    }
+
+    .button1>.btn4 {
+        font-size: 3.5vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3vw;
+
+    }
+
+    .box>h2 {
+        font-size: 6vw;
+    }
+
+    .box>p {
+        font-size: 4vw;
+    }
+
+    .heading>h1,
+    .skill>h1,
+    .contact>h3 {
+        font-size: 5vw;
+    }
+
+    .btn {
+        width: 40vw;
+        height: 10vw;
+        font-size: 3vw;
+        margin-left: 0.5vw;
+    }
+   
+    .contact{
+        width: 87vw;
+        justify-content: center;
+    }
+    
+    .contact button {
+        width: 40vw;
+        height: 8vw;
+    }
+
+    .skill {
+        background-color: #f7f7f7;
+        height: 52vw;
+        margin-top: 6vw;
+
+    }
+
+    .skill>.button2 {
+        margin-left: 12vw;
+    }
+
+
+    .project .box1 {
+        width: 80vw;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .project>.box1 h3 {
+        font-size: 5vw;
+    }
+
+    .project>.box1 p {
+        font-size: 4vw;
+        margin-left: 4vw;
+        color: gray;
+        width: 100vw;
+        margin-top: 4vw;
+    }
+
+
+
+    .heading P {
+        font-size: 4vw;
+    }
+
+    .alg>h1 {
+        color: black;
+        font-size: 6vw;
+        margin-left: 7vw;
+        margin-top: 6vw;
+
+    }
+
+    .notcopy>p {
+        font-size: 3vw;
+    }
+
+
+
+    .fflex>.whatsapp {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.instagaram {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.facebook {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.Email {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.Github {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+}
+
+
+@media (max-width: 350px) {
+    .container .flex1>h2 {
+        font-size: 7vw;
+        margin-top: -1vw;
+        margin-left: -2vw;
+        width: 1vw;
+
+    }
+
+    .button1>button {
+        font-size: 3.5vw;
+        display: flex;
+        justify-content: space-between;
+        width: 7vw;
+        margin-left: 7vw;
+
+    }
+
+    .button1>.btn1 {
+        font-size: 3.8vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 22vw;
+        width: 7vw;
+
+    }
+
+    .button1>.btn2 {
+        font-size: 3.8vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3vw;
+        width: 9vw;
+
+    }
+
+    .button1>.btn3 {
+        font-size: 3.8vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1vw;
+        width: 9vw;
+
+    }
+
+    .button1>.btn4 {
+        font-size: 3.8vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3vw;
+        width: 9vw;
+
+    }
+
+    .box>h2 {
+        font-size: 6vw;
+    }
+
+    .box p {
+        font-size: 5vw;
+    }
+
+    .contact {
+        width: 62vw;
+    }
+
+    .contact>h3 {
+        font-size: 5vw;
+    }
+
+    .btn {
+        width: 40vw;
+        height: 10vw;
+        font-size: 3vw;
+        margin-left: 0.5vw;
+    }
+
+
+    .contact button {
+        width: 40vw;
+        height: 8vw;
+    }
+
+    .skill {
+        background-color: #f7f7f7;
+        height: 52vw;
+        margin-top: 6vw;
+    }
+
+    .skill>h1 {
+        font-size: 5vw;
+        margin-left: 14vw;
+    }
+
+    .skill>.button2 {
+        margin-left: 12vw;
+    }
+
+
+    .project > .box1 {
+        width: 75vw;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .project>.box1 h3 {
+        font-size: 5vw;
+    }
+
+    .project>.box1 p {
+        font-size: 4vw;
+        margin-left: 4vw;
+        color: gray;
+        width: 100vw;
+        margin-top: 4vw;
+    }
+
+    .heading>h1 {
+        font-size: 5vw;
+        margin-left: 15vw;
+    }
+
+    .heading P {
+        font-size: 4vw;
+        margin-left: 15vw;
+        width: 80vw;
+    }
+
+    .alg>h1 {
+        color: black;
+        font-size: 6vw;
+        margin-left: 15vw;
+        margin-top: 6vw;
+
+    }
+
+    .notcopy {
+        width: 85%;
+        margin-left: 10%;
+    }
+
+    .notcopy>p {
+        font-size: 3vw;
+    }
+
+
+
+    .fflex>.whatsapp {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.instagaram {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.facebook {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.Email {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.Github {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+}
+
+
+@media (max-width: 280px) {
+    .container .flex1>h2 {
+        font-size: 5vw;
+        margin-top: -1vw;
+        margin-left: -2vw;
+        width: 2vw;
+        position: sticky;
+
+    }
+
+    .button1>button {
+        font-size: 3.5vw;
+        display: flex;
+        justify-content: space-between;
+        width: 7vw;
+        margin-left: 7vw;
+
+    }
+
+    .button1>.btn1 {
+        font-size: 3.8vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 22vw;
+        width: 7vw;
+
+    }
+
+    .button1>.btn2 {
+        font-size: 3.8vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3vw;
+        width: 9vw;
+
+    }
+
+    .button1>.btn3 {
+        font-size: 3.8vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1vw;
+        width: 9vw;
+
+    }
+
+    .button1>.btn4 {
+        font-size: 3.8vw;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3vw;
+        width: 9vw;
+
+    }
+
+    .box>h2 {
+        font-size: 6vw;
+    }
+
+    .box p {
+        font-size: 4vw;
+    }
+
+    .contact {
+        width: 62vw;
+    }
+
+    .contact>h3 {
+        font-size: 5vw;
+    }
+
+    .btn {
+        width: 40vw;
+        height: 10vw;
+        font-size: 3vw;
+        margin-left: 0.5vw;
+    }
+
+
+    .contact button {
+        width: 40vw;
+        height: 8vw;
+    }
+
+    .skill {
+        background-color: #f7f7f7;
+        height: 52vw;
+        margin-top: 6vw;
+    }
+
+    .skill>h1 {
+        font-size: 5vw;
+        margin-left: 14vw;
+    }
+
+    .skill>.button2 {
+        margin-left: 12vw;
+    }
+
+
+    .project .box1 {
+        width: 65vw;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .project>.box1 h3 {
+        font-size: 5vw;
+    }
+
+    .project>.box1 p {
+        font-size: 4vw;
+        margin-left: 4vw;
+        color: gray;
+        width: 100vw;
+        margin-top: 4vw;
+    }
+
+    .heading>h1 {
+        font-size: 5vw;
+        margin-left: 15vw;
+    }
+
+    .heading P {
+        font-size: 4vw;
+        margin-left: 15vw;
+        width: 80vw;
+    }
+
+    .alg>h1 {
+        color: black;
+        font-size: 6vw;
+        margin-left: 15vw;
+        margin-top: 6vw;
+
+    }
+
+    .notcopy {
+        width: 85%;
+        margin-left: 10%;
+    }
+
+    .notcopy>p {
+        font-size: 3vw;
+    }
+
+
+
+    .fflex>.whatsapp {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.instagaram {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.facebook {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.Email {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+
+    .fflex>.Github {
+        height: 16vw;
+        border-radius: 1vw;
+    }
+}
