@@ -40,7 +40,7 @@ setTimeout(() => {
 
 let btn4 = document.querySelector(".btn4");
 btn4.addEventListener("click",()=>{
-window.location.href = "https://wa.me/923132911833"
+window.location.href = "https://wa.me/923161022634"
 btn4.style.color = "#FFC400"
 setTimeout(() => {
  btn4.style.color = "#110133"
@@ -49,7 +49,7 @@ setTimeout(() => {
 
 let whatsapp = document.querySelector(".whatsapp");
 whatsapp.addEventListener("click",()=>{
-window.location.href = "https://wa.me/923132911833"
+window.location.href = "https://wa.me/923161022634"
 setTimeout(() => {
 whatsapp.style.backgroundColor = "#110133" 
 whatsapp.style.color = "white" 
@@ -77,7 +77,7 @@ instagaram.style.color = "white"
 
 let Email = document.querySelector(".Email");
 Email.addEventListener("click",()=>{
-window.location.href = "mailto:umarqureshi.3610@gmail.com?subject=Contact%20Request&body=Hello%20Umar%2C%20please%20reply%20to%20my%20message."
+window.location.href = "https://mail.google.com/mail/?view=cm&fs=1&to=umerq9610@gmail.com",  "_blank"
 setTimeout(() => {
 Email.style.backgroundColor = "#110133" 
 Email.style.color = "white" 
@@ -86,7 +86,7 @@ Email.style.color = "white"
 
 let Github = document.querySelector(".Github");
 Github.addEventListener("click",()=>{
-window.location.href = "https://github.com/umerqureshi844"
+window.location.href = "https://github.com/UmerQureshi112", "_blank"
 setTimeout(() => {
 Github.style.backgroundColor = "#110133" 
 Github.style.color = "white" 
